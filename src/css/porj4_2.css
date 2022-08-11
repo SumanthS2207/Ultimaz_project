@@ -1,0 +1,104 @@
+.head-container{
+    position: absolute;
+    top: 50px;
+    left: 130px;
+    width: 1150px;
+    color: white;
+    background-color: black;
+    align-items: center;
+}
+#header{
+    display: flex;
+}
+#log{
+    margin: 25px;
+}
+#searchOne{
+    margin: 25px;
+    position: relative;
+    left: 600px;
+    display: flex;
+}
+.container{
+    position: absolute;
+    top: 138px;
+    left: 130px;
+}
+/* @media only screen and (max-width:1440px){
+    .head-container{
+        position: absolute;
+        left: 50px;
+        width: 1300px;
+    }
+    #searchOne{
+        position: absolute;
+        left: 1000px;
+    }
+    .container{
+        position: absolute;
+        left: 40px;
+    }
+ } */
+ @media only screen and (max-width:1054px){
+    .head-container{
+        position: absolute;
+        left: 50px;
+        width: 950px;
+    }
+    #searchOne{
+        position: absolute;
+        left: 500px;
+    }
+    .container{
+        position: absolute;
+        left: 40px;
+    }
+ }
+ @media only screen and (max-width:780px){
+    .head-container{
+        position: absolute;
+        left: 50px;
+        width: 700px;
+    }
+    #searchOne{
+        position: absolute;
+        left: 410px;
+    }
+    .container{
+        position: absolute;
+        left: 40px;
+        
+    }
+ }
+
+ @media only screen and (max-width:430px){
+    .head-container{
+        position: absolute;
+        left: 50px;
+        width: 615px;
+    }
+    #searchOne{
+        position: absolute;
+        left: 310px;
+    }
+    .container{
+        position: absolute;
+        left: 40px;
+    }
+ }
+ @media only screen and (max-width:400px){
+    .head-container{
+        position: absolute;
+        left: 10px;
+        width: 600px;
+    }
+    #searchOne{
+        position: absolute;
+        left: 310px;
+    }
+    .container{
+        position: absolute;
+        left: 0px;
+        margin: 0px;
+    }
+ }

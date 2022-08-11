@@ -1,0 +1,47 @@
+.fluid-container{
+    border: blue;
+    width: 25%; 
+    background-color: black; 
+    color: wheat;
+    /* position: relative;
+    left: 450px;  */
+    display: grid;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+#form-container{
+    font-size: 15px;
+}
+
+@media only screen and (max-width:1440px){
+
+}
+
+
+@media only screen and (max-width:850px){
+    .fluid-container{
+        display: grid;
+        width: 50%;
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    #form-container{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:320px){
+    .fluid-container{
+        display: grid;
+        width: 50%;
+        padding: 0px;
+    }
+    #form-container{
+        width: 25px;
+    }
+    #division{
+        font-size: 8px;
+    }
+}
